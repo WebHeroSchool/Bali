@@ -1,0 +1,20 @@
+@font-face {
+   font-family: 'museo_sans_cyrl500';
+   src: url('museosanscyrl-webfont.woff2') format('woff2'),
+        url('museosanscyrl-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'pt_serifitalic';
+    src: url('ptf56f-webfont.woff2') format('woff2'),
+         url('ptf56f-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
