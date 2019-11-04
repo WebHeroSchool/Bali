@@ -1,0 +1,38 @@
+body {
+position: absolute;
+background: url("img/iswanto-arif-448003-unsplash.jpg");
+background-size: auto;
+}
+
+.header__logo-main {
+position: absolute;
+left: 10.4%;
+right: 81.99%;
+top: 8.2%;
+bottom: 86.72%;
+color:#FCF5ED;;
+}
+
+.header__content {
+  text-align: justify;
+width: 100%;
+}
+
+.header__menu {
+display: flex;
+justify-content: flex-end;
+align-items: flex-start;
+font-family: museo_sans_cyrl500;
+font-size: 22px;
+line-height: 26px;
+color: #F8EEE4;
+width: auto;
+}
+
+.header__menu a {
+  display: flex;	
+}
+
+.header__menu-nav {
+   margin: 20px 10px;
+}
