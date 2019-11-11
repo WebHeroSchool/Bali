@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+ .background-image {
+  height: 100vh;
+  background-size: cover;
+  background: url("img/iswanto-arif-448003-unsplash.jpg") no-repeat;
+  width: 100%;
+}
