@@ -12,7 +12,7 @@
   background-position: center;
   display: flex;
   flex-flow: row wrap;
-  overflow: hidden;
+  overflow: scroll;
 }
 
 a {
@@ -50,7 +50,6 @@ a {
 .section {
 	height: 78.5vh;
 	width: 47%;
-  background-attachment: local;
 	display: flex;
 	flex-flow: column nowrap;
 	align-items: center;
@@ -94,19 +93,16 @@ a {
   margin-bottom: 34px;
   }
 
-.button {
-width: 50%;
-padding-right: 9px;
-}
 .button__click {
-  background: #D4BEA3;
-  border-radius: 48px;
-  font-family: museo_sans_cyrl500;
-  font-size: 22px;
+  font: 22px museo_sans_cyrl500;
+  width: 294px;
+  height: 65px;
   line-height: 26px;
-  color: #FFFFFF;
-  width: 293.76px;
-  height: 61.88px;
+  color: #FFF;
+  background: #D4BEA3;
+  border: none;
+  border-radius: 48px;
+  margin-right: 160px;
 }
 
 .aside__block {
@@ -136,7 +132,7 @@ padding-right: 9px;
   overflow: hidden; 
   }
 
-@media screen and (max-width: 667px) {
+@media screen and (max-width: 767px) {
   
 .header {
   height: 18vh;
@@ -204,7 +200,7 @@ padding-right: 9px;
   font-size: 60px;
   margin-top: -85px;
   width: 66%;
-  margin-bottom: 31px;
+  margin-bottom: 34px;
  }
 
 .section__text-block {
@@ -214,19 +210,15 @@ padding-right: 9px;
   margin-left: 0px;
   padding-left: 0px;
   padding-right: 3px;
-  margin-bottom: 34px;
+  margin-bottom: 35px;
   text-align: center;
   }
 
-.button {
-width: 55%;
-padding-right: 20px;
-}
 .button__click {
-  font-size: 16px;
-  color: #FFFFFF;
+  font: 16px museo_sans_cyrl500;
   width: 209px;
   height: 44px;
+  margin-right: 14px;
 }
 
 .aside__block {
@@ -235,5 +227,177 @@ padding-right: 20px;
 }
 
 @media (min-width:768px) and (max-width:1024px) {
-
+ 
+  .header {
+  height: 22vh;
+  width: 93.5%; 
 }
+
+.header__logo {
+  margin-left: 7px;
+}
+.header__logo-main {
+  width: 104px;
+  height: 39px;
+}
+
+.header__menu {
+  margin-bottom: 24px;
+}
+
+.header__menu a:nth-child(5) {
+  padding-right: 4px;
+}
+
+.header__menu-nav {
+  padding: 0px 2px 4px 24px;
+  font-size: 16px;
+  text-shadow: 0px 13px #F8EEE4;
+  
+}
+
+.section {
+  height: 78vh;
+}
+
+.section__zaglav-main {
+  font-size: 200px;
+  margin-left: 0;
+  margin-right: 22px;
+  line-height: 1.55;
+  
+}
+
+.section__zaglav-secondary {
+  font-size: 70px;
+  margin-top: -125px;
+  width: 58%;
+  margin-left: 0px;
+  margin-bottom: 10px;
+ }
+
+.section__text-block {
+  font-size: 16px; 
+  width: 81%;
+  margin-left: 20px;
+  padding-left: 0px;
+  line-height: 19px;
+  margin-bottom: 25px;
+  }
+
+.button__click {
+  font: 16px museo_sans_cyrl500;
+  width: 209px;
+  height: 44px;
+}
+
+.aside__block {
+  justify-content: flex-start;
+}
+
+.aside__block img {
+  margin-bottom: 88px;
+}
+
+.first-picture {
+ margin-right: 24px;
+ margin-left: 30px;
+ width: 225.75px;
+ height: 300px;
+}
+
+.second-picture {
+  margin-right: 24px;
+  width: 202.27px;
+  height: 270px;
+}
+
+.third-picture {
+  width: 180.6px;
+  height: 270px;
+  overflow: hidden; 
+  }
+}
+
+ @media (min-width:1025px) and (max-width:1366px) {
+
+  .header {
+  height: 21.8vh;
+  width: 88.5%; 
+}
+
+.header__logo {
+  margin-left: 65px;
+}
+.header__logo-main {
+  width: 104px;
+  height: 39px;
+}
+
+.header__menu-nav {
+  padding: 0px 2px 6px 24px;
+  font-size: 16px;
+}
+
+.section {
+  height: 78.2vh;
+}
+
+.section__zaglav-main {
+  font-size: 200px;
+ /* margin-left: 0;
+  margin-right: 22px;*/
+  line-height: 1.55;
+  
+}
+
+.section__zaglav-secondary {
+  font-size: 70px;
+  margin-top: -127px;/*
+  width: 58%;
+  margin-left: 0px;*/
+  margin-bottom: 10px;
+ }
+
+.section__text-block {
+  font-size: 16px; 
+  width: 62%;
+  line-height: 19.8px;
+  margin-left: 39px;
+  padding-left: 30px;
+  margin-bottom: 24px;
+  }
+
+.button__click {
+  font: 16px museo_sans_cyrl500;
+  width: 209px;
+  height: 44px;
+  margin-right: 117px;
+}
+
+.aside__block img {
+  margin-bottom: 88px;
+ 
+}
+
+.first-picture {
+ margin-right: 24px;
+ margin-left: 30px;
+ width: 225.75px;
+ height: 300px;
+}
+
+.second-picture {
+ margin-right: 24px;
+  width: 202.27px;
+  height: 270px;
+}
+
+.third-picture {
+  width: 147px;
+  height: 270px;
+   
+  }
+}
+ 
+
