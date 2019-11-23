@@ -27,7 +27,7 @@ a {
   height: 21.5vh;
   margin: 0 auto;
   border: 2px solid transparent;
-  width: 88%;   
+  width: 88%; 
 }
 
 .header__logo {
@@ -41,10 +41,14 @@ a {
   justify-content: flex-end;
 }
 
-.header__menu-nav {
-  padding: 0px 2px 4px 36px;
+.header__menu-link {
   font-size: 22px;
   font-family: museo_sans_cyrl500;
+  margin: 0 36px 4px 2px;
+}
+
+.header__menu-link:last-child {
+   margin-right: 0;
 }
 
 .section {
@@ -55,7 +59,7 @@ a {
 	align-items: center;
 }
 
-.section__zaglav-main {
+.section__title-main {
   font-family: PT Serif;
   font-style: normal;
   font-weight: bold;
@@ -65,10 +69,9 @@ a {
   opacity: 0.4;
   line-height: 1.6;
   margin-left: 15px;
-  
 }
 
-.section__zaglav-secondary {
+.section__title-secondary {
   font-family: PT Serif;
   font-style: normal;
   font-weight: bold;
@@ -94,15 +97,15 @@ a {
   }
 
 .button__click {
+  display: inline-block;
   font: 22px museo_sans_cyrl500;
   width: 294px;
   height: 65px;
-  line-height: 26px;
   color: #FFF;
   background: #D4BEA3;
   border: none;
   border-radius: 48px;
-  margin-right: 160px;
+  margin-right: 164px;
 }
 
 .aside__block {
@@ -116,7 +119,7 @@ a {
 }
 
 .aside__block img {
-  margin-bottom: 117px;
+  margin-bottom: 116px;
 }
 
 .first-picture {
@@ -188,7 +191,7 @@ a {
   
 }
 
-.section__zaglav-main {
+.section__title-main {
   font-size: 170px;
   margin-right: 30px;
   margin-left: 0;
@@ -196,7 +199,7 @@ a {
   
 }
 
-.section__zaglav-secondary {
+.section__title-secondary {
   font-size: 60px;
   margin-top: -85px;
   width: 66%;
@@ -210,7 +213,7 @@ a {
   margin-left: 0px;
   padding-left: 0px;
   padding-right: 3px;
-  margin-bottom: 35px;
+  margin-bottom: 34px;
   text-align: center;
   }
 
@@ -249,18 +252,21 @@ a {
   padding-right: 4px;
 }
 
-.header__menu-nav {
-  padding: 0px 2px 4px 24px;
+.header__menu-link {
   font-size: 16px;
   text-shadow: 0px 13px #F8EEE4;
-  
+  margin: 0 24px 4px 2px;
+}
+
+.header__menu-link:last-child {
+   margin-right: 0;
 }
 
 .section {
   height: 78vh;
 }
 
-.section__zaglav-main {
+.section__title-main {
   font-size: 200px;
   margin-left: 0;
   margin-right: 22px;
@@ -268,7 +274,7 @@ a {
   
 }
 
-.section__zaglav-secondary {
+.section__title-secondary {
   font-size: 70px;
   margin-top: -125px;
   width: 58%;
@@ -292,7 +298,7 @@ a {
 }
 
 .aside__block {
-  justify-content: flex-start;
+ 
 }
 
 .aside__block img {
@@ -300,15 +306,15 @@ a {
 }
 
 .first-picture {
- margin-right: 24px;
- margin-left: 30px;
- width: 225.75px;
+ margin-right: 0px;
+ margin-left: 0px;
+ width: 226px;
  height: 300px;
 }
 
 .second-picture {
-  margin-right: 24px;
-  width: 202.27px;
+  margin-right: 0px;
+  width: 202px;
   height: 270px;
 }
 
@@ -316,12 +322,13 @@ a {
   width: 180.6px;
   height: 270px;
   overflow: hidden; 
+  margin: 0;
   }
 }
 
  @media (min-width:1025px) and (max-width:1366px) {
 
-  .header {
+.header {
   height: 21.8vh;
   width: 88.5%; 
 }
@@ -334,35 +341,34 @@ a {
   height: 39px;
 }
 
-.header__menu-nav {
-  padding: 0px 2px 6px 24px;
+.header__menu-link {
+  margin: 0px 24px 6px 2px;
   font-size: 16px;
+}
+
+.header__menu-link:last-child {
+  margin-right: 0;
 }
 
 .section {
   height: 78.2vh;
 }
 
-.section__zaglav-main {
+.section__title-main {
   font-size: 200px;
- /* margin-left: 0;
-  margin-right: 22px;*/
   line-height: 1.55;
-  
 }
 
-.section__zaglav-secondary {
+.section__title-secondary {
   font-size: 70px;
-  margin-top: -127px;/*
-  width: 58%;
-  margin-left: 0px;*/
+  margin-top: -127px;
   margin-bottom: 10px;
  }
 
 .section__text-block {
   font-size: 16px; 
   width: 62%;
-  line-height: 19.8px;
+  line-height: 20px;
   margin-left: 39px;
   padding-left: 30px;
   margin-bottom: 24px;
@@ -370,25 +376,24 @@ a {
 
 .button__click {
   font: 16px museo_sans_cyrl500;
-  width: 209px;
+  width: 210px;
   height: 44px;
   margin-right: 117px;
 }
 
 .aside__block img {
   margin-bottom: 88px;
- 
 }
 
 .first-picture {
- margin-right: 24px;
- margin-left: 30px;
- width: 225.75px;
- height: 300px;
+  margin-right: 24px;
+  margin-left: 30px;
+  width: 226px;
+  height: 300px;
 }
 
 .second-picture {
- margin-right: 24px;
+  margin-right: 24px;
   width: 202.27px;
   height: 270px;
 }
