@@ -75,7 +75,7 @@ width: 50%;
 
 .section__title-main {
   box-sizing: border-box;
-  font-family: PT Serif;
+  font-family: pt_serifitalic;
   font-style: normal;
   font-weight: bold;
   border: 2px solid red;
@@ -88,7 +88,7 @@ width: 50%;
 .section__title-secondary {
   box-sizing: border-box;
   position: absolute;
-  font-family: PT Serif;
+  font-family: pt_serifitalic;
   font-style: normal;
   font-weight: bold;
   border: 2px solid red;
@@ -148,13 +148,13 @@ overflow: hidden;
 
 @media screen and (max-width: 767px) {
   
-/*.header {
-  width: 80%; 
-  margin-bottom: 2px;  
+.header {
+  height: 18.5vh;
+  width: 83%;
 }
 
 .header__logo {
-  margin-left: 4px;
+  margin-left: 10px;
 }
 
 .header__logo-main {
@@ -179,7 +179,6 @@ overflow: hidden;
    width: 25px;
    height: 3px;
    background: #FCF5ED;
-   margin-left: 3px;
    cursor: move;
 }
 
@@ -196,48 +195,43 @@ overflow: hidden;
 }
 
 .section__main {
-width: 100%;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 }
 
-/*.section {
-  flex: 1;
+.section {
+  /*flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
+  align-items: center;*/
   
 }
 
 .section__title {
-  margin-bottom: 30px;
+  
   }
 
 .section__title-main {
   font-size: 170px;
-  margin-right: 22px;
-  line-height: 1.4;
+  /*line-height: 1.4;*/
   }
 
 .section__title-secondary {
   font-size: 60px;
-  padding: 0 0 2px 58px;
+  
  }
 
  .section__offer {
-  align-items: center;
-  justify-content: center;
-  margin-left: 0;
+
  }
 
 .section__text-block {
   font-size: 18px;
   line-height: 22px;
-  margin: 0 0 33px 0;
-  text-align: center;
-  width: 78%;
+  /*text-align: center;
+  width: 78%;*/
   }
 
 .button__click {
@@ -245,8 +239,6 @@ align-items: center;
   width: 209px;
   height: 44px;
   color: #FFF;
-  margin-left: 0;
-  margin-right: 14px;
 }
 
 
@@ -255,7 +247,7 @@ align-items: center;
 }
 }
 
-@media (min-width:768px) and (max-width:1024px) {
+/*@media (min-width:768px) and (max-width:1024px) {
  
 .header {
   width: 93.5%; 

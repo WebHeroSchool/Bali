@@ -7,7 +7,7 @@
 }
 
 @font-face {
-    font-family: 'pt_serifitalic';
+    font-family: 'pt_serifitalic'; 
     src: url('./fonts/ptf56f-webfont.woff2') format('woff2'),
          url('./fonts/ptf56f-webfont.woff') format('woff');
     font-weight: normal;
