@@ -26,7 +26,7 @@ a {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  border: 2px solid red;
+  border: 2px solid transparent;
   width: 88%; 
   margin-bottom: 46px;
 }
@@ -74,7 +74,7 @@ a {
 .section__title-main {
   box-sizing: border-box;
   font-family: 'PT Serif';
-  border: 2px solid red;
+  border: 2px solid transparent;
   font-size: 280px;
   color: #F8EEE4;
   opacity: 0.4;
@@ -87,7 +87,7 @@ a {
   font-family: 'PT Serif';
   font-style: normal;
   font-weight: bold;
-  border: 2px solid red;
+  border: 2px solid transparent;
   font-size: 98px;
   color: #F8EEE4;
   padding-bottom: 9px;
@@ -97,7 +97,7 @@ a {
 .section__text-block {
   font: 22px/26px 'Museo Sans Cyrl';
   color: #F8EEE4;
-  border: 2px solid red;
+  border: 2px solid transparent;
   width: 57%;
   text-align: left;
   margin: auto;
