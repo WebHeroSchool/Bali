@@ -12,7 +12,7 @@
   background-position: center;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
+  overflow: scroll;
 }
 
 a {
@@ -67,7 +67,7 @@ a {
   text-align: center;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  flex-direction: column;
   margin-bottom: 10px;
 }
 
@@ -78,12 +78,11 @@ a {
   font-size: 280px;
   color: #F8EEE4;
   opacity: 0.4;
-  padding-right: 34px;
+  margin-bottom: -140px;
 }
 
 .section__title-secondary {
   box-sizing: border-box;
-  position: absolute;
   font-family: 'PT Serif';
   font-style: normal;
   font-weight: bold;
@@ -321,18 +320,18 @@ img:last-child {
   }
 
   .first-picture {
-    width: 226px;
-    height: 300px;
+    max-width: 226px;
+    max-height: 300px;
   }
 
   .second-picture {
-    width: 202px;
-    height: 270px;
+    max-width: 202px;
+    max-height: 270px;
   }
 
   .third-picture {
-    width: 180.6px;
-    height: 270px;
+    max-width: 180.6px;
+    max-height: 270px;
   }
 }
 
