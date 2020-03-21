@@ -148,7 +148,7 @@ img:last-child {
   }
   
   .header {
-    flex: 18.5%;
+    flex: 19%;
     width: 83%;
     margin-bottom: 14px;
   }
@@ -217,7 +217,8 @@ img:last-child {
 
   .section__title-secondary {
     font-size: 60px;
-    margin-left: 42px;
+    margin-left: 72px;
+    margin-top: -84px;
     padding: 0;
   }
 
@@ -423,7 +424,7 @@ img:last-child {
 }
 
 @media only screen and (max-width: 767px) and (orientation:landscape) {
-  
+
   .background-image {
     align-items: center;
   }
