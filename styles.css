@@ -426,6 +426,7 @@ img:last-child {
 @media only screen and (max-width: 767px) and (orientation:landscape) {
   .header {
     flex: 0;
+    margin-top: 30px;
   }
 
   .header__logo {
