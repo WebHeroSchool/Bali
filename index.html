@@ -23,8 +23,8 @@
       <div class="header__menu-icon"> 
         <span></span>
         <span></span>
-        <span></span>
-        <span></span>
+        <!-- span></span>
+        <span></span-->
         <span></span>
       </div>
   </header>
@@ -49,5 +49,13 @@
       </div>
     </aside>
   </div>
+  <script>
+    (function($){
+  $(function() {
+    $('.menu__icon').on('click', function() {
+      $(this).closest('.menu').toggleClass('menu_state_open');
+    });
+  });
+})(jQuery); </script> 
 </body>
 </html>
