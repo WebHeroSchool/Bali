@@ -52,12 +52,14 @@
   <script>
   let klick = document.querySelector('.header__menu-icon');
   let items = document.querySelector('.header__menu');
+  let back = document.querySelector('.background-image');
   klick.onclick = function() {
     open()
   };
   function open() {
       items.classList.toggle("show");
       klick.classList.toggle('rotate');
+      back.classList.toggle('hidden');
     }
   /* klick.addEventListener( 'click', function() {
     klick.classList.toggle('menu_state_open');

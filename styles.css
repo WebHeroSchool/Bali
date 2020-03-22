@@ -142,16 +142,20 @@ img:last-child {
  
 
 @media (max-width: 767px) {
-  .header__menu {
-    display: none;
-   
+
+  .hidden {
+    background:white;
   }
 
+  .header__menu {
+    display: none;
+  }
+  
   .header__menu-link {
     display: block;
     padding: 10px 0;
     text-align: center;
-    color: #ffffff;
+    color: black;
   }
 
   .background-image {
@@ -173,9 +177,6 @@ img:last-child {
     height: 39px;
   }
 
-  .header__menu {
-    display: none;
-  }
    .header__menu-icon {
     position: relative;
     display: inline-block;
@@ -207,26 +208,31 @@ img:last-child {
   .show {
     display: block;
     overflow: auto;
+    color: black;
   }
-
+  
   .rotate span:nth-child(1) {
     top: 20px;
     width: 0%;
     left: 50%;
+    background: black;
   }
 
  .rotate span:nth-child(2) {
     transform: rotate(45deg);
+    background: black;
   }
 
  .rotate span:nth-child(3) {
     transform: rotate(-45deg);
+    background: black;
   }
 
  .rotate span:nth-child(4) {
     top: 20px;
     width: 0%;
     left: 50%;
+    background: black;
  }
 
   .section__main {
