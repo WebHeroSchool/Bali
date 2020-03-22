@@ -49,6 +49,11 @@
       </div>
     </aside>
   </div>
-  <script src = "./script.js"> </script> 
+  <script>
+  let klick = document.querySelector('.header__menu-icon');
+  klick.addEventListener( 'click', function() {
+    klick.classList.toggle('menu_state_open');
+  });
+ </script> 
 </body>
 </html>
