@@ -19,6 +19,9 @@ a {
   color: #F8EEE4;
   text-decoration: none;
 }
+.menu-mobile {
+  height: 0;
+}
 
 .header {
   flex: 22%;
@@ -526,3 +529,4 @@ img:last-child {
     display: block;
   }
 }
+
