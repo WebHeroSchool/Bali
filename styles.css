@@ -23,6 +23,10 @@ a {
   height: 0;
 }
 
+.menu-mobile__links-item {
+  color: transparent;
+}
+
 .header {
   flex: 22%;
   display:flex;
