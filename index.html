@@ -8,6 +8,18 @@
     <title>Bali_project</title>
 </head>
 <body>
+  <div class = "menu-mobile">
+    <div class = "menu-mobile__wrapper">
+      <div class = "menu-mobile__burger"></div>
+      <div class = "menu-mobile__links">
+      <a class="menu-mobile__links-item">start</a>
+      <a class="menu-mobile__links-item">services</a>
+      <a class="menu-mobile__links-item">about</a>
+      <a class="menu-mobile__links-item">blog</a>
+      <a class="menu-mobile__links-item">contact us</a>
+    </div>
+    </div>
+  </div>
   <div class="background-image">
     <header class="header">
       <div class="header__logo">
@@ -24,7 +36,6 @@
         <span></span>
         <span></span>
         <span></span>
-        <!-- span></span-->
         <span></span>
       </div>
   </header>
@@ -51,29 +62,13 @@
   </div>
   <script>
   let klick = document.querySelector('.header__menu-icon');
-  let items = document.querySelector('.header__menu');
-  let back = document.querySelector('.background-image');
+  let mobile = document.querySelector('.menu-mobile');
   klick.onclick = function() {
-    open()
+    open();
   };
   function open() {
-      items.classList.toggle("show");
-      klick.classList.toggle('rotate');
-      back.classList.toggle('hidden');
-    }
-  /* klick.addEventListener( 'click', function() {
-    klick.classList.toggle('menu_state_open');
-  });
- klick.onclick = () => { /*klick.classList.add('menu_state_open');
-  alert('hello!');
-};
-console.log(rop);
-
-document.getElementById("trigger").onclick = function() {open()};
-
-function open() {
-    document.getElementById("menu").classList.toggle("show");
-}*/
- </script> 
+      mobile.classList.toggle("visible");
+  }
+  </script> 
 </body>
 </html>
