@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="initial-scale=1.0, width=device-width">
-     <link rel="stylesheet" href="./fonts.css">
-     <link rel="stylesheet" href="./styles.css">
+     <link rel="stylesheet" href="fonts.css">
+     <link rel="stylesheet" href="styles.css">
     <title>Bali_project</title>
 </head>
 <body>
@@ -51,9 +51,27 @@
   </div>
   <script>
   let klick = document.querySelector('.header__menu-icon');
-  klick.addEventListener( 'click', function() {
+  let items = document.querySelector('.header__menu');
+  klick.onclick = function() {
+    open()
+  };
+  function open() {
+      items.classList.toggle("show");
+      klick.classList.toggle('rotate');
+    }
+  /* klick.addEventListener( 'click', function() {
     klick.classList.toggle('menu_state_open');
   });
+ klick.onclick = () => { /*klick.classList.add('menu_state_open');
+  alert('hello!');
+};
+console.log(rop);
+
+document.getElementById("trigger").onclick = function() {open()};
+
+function open() {
+    document.getElementById("menu").classList.toggle("show");
+}*/
  </script> 
 </body>
 </html>

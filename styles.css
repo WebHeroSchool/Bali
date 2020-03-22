@@ -139,29 +139,21 @@ img:last-child {
   margin-right: 0;
   overflow: hidden; 
 }
-
+ 
 
 @media (max-width: 767px) {
-  
-  /*.menu__links {
-    position: fixed;
-    display: block;
-    top: 0;
-    right: 0;
-    left: 0;
-    margin-top: 52px;
-    background-color: rgba(0, 0, 0, 0.8);
-    z-index: 1000;
-    overflow: auto;
+  .header__menu {
+    display: none;
+   
   }
-  
-  .menu__links-item {
+
+  .header__menu-link {
     display: block;
     padding: 10px 0;
     text-align: center;
     color: #ffffff;
   }
-}*/
+
   .background-image {
     align-items: center;
   }
@@ -184,8 +176,7 @@ img:last-child {
   .header__menu {
     display: none;
   }
-
-  .header__menu-icon {
+   .header__menu-icon {
     position: relative;
     display: inline-block;
     width: 25px;
@@ -199,42 +190,44 @@ img:last-child {
     height: 3px;
     background: #FCF5ED;
     cursor: move;
-  }  
+  } 
 
   .header__menu-icon span:nth-child(1) {
     top: 2px;
   }
 
-  .header__menu-icon span:nth-child(2), .header__menu-icon span:nth-child(3) /*.header__menu-icon span:nth-child(4)*/ {
+  .header__menu-icon span:nth-child(2), .header__menu-icon span:nth-child(3) {
     top: 9px;
   }
 
-  .header__menu-icon span:nth-child(3) {
+  .header__menu-icon span:nth-child(4) {
     top: 16px;
   }
-  .menu_state_open .header__menu-icon span:nth-child(1) {
-    top: 18px;
+
+  .show {
+    display: block;
+    overflow: auto;
+  }
+
+  .rotate span:nth-child(1) {
+    top: 20px;
     width: 0%;
     left: 50%;
-}
+  }
 
-  .menu_state_open .header__menu-icon span:nth-child(2) {
+ .rotate span:nth-child(2) {
     transform: rotate(45deg);
-}
+  }
 
-  .menu_state_open .header__menu-icon span:nth-child(3) {
+ .rotate span:nth-child(3) {
     transform: rotate(-45deg);
-}
+  }
 
-  .menu_state_open .header__menu-icon span:nth-child(4) {
-    top: 18px;
+ .rotate span:nth-child(4) {
+    top: 20px;
     width: 0%;
     left: 50%;
-}
-
-.menu_state_open .header__menu-link {
-    display: block;  
-}
+ }
 
   .section__main {
     flex: 81.5%;
@@ -307,7 +300,7 @@ img:last-child {
     height: 39px;
   }
 
-  .header__menu-link {
+  .header__men u-link {
     font-size: 16px;
     text-shadow: 0px 10px #F8EEE4;
     margin-right: 26px;
