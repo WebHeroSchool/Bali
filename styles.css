@@ -534,3 +534,9 @@ img:last-child {
   }
 }
 
+@media (max-height: 500px) {
+  .aside__block {
+  height: 75%;
+  }
+}
+
