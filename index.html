@@ -3,11 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="initial-scale=1.0, width=device-width">
-     <link rel="stylesheet" href="./fonts.css">
-     <link rel="stylesheet" href="./styles.css">
+     <link rel="stylesheet" href="fonts.css">
+     <link rel="stylesheet" href="styles.css">
     <title>Bali_project</title>
 </head>
 <body>
+  <div class = "menu-mobile">
+    <div class = "menu-mobile__wrapper">
+      <div class = "menu-mobile__burger"></div>
+      <div class = "menu-mobile__links">
+      <a class="menu-mobile__links-item">start</a>
+      <a class="menu-mobile__links-item">services</a>
+      <a class="menu-mobile__links-item">about</a>
+      <a class="menu-mobile__links-item">blog</a>
+      <a class="menu-mobile__links-item">contact us</a>
+    </div>
+    </div>
+  </div>
   <div class="background-image">
     <header class="header">
       <div class="header__logo">
@@ -21,7 +33,6 @@
         <a class="header__menu-link" href="/">Contact us</a>
       </nav>
       <div class="header__menu-icon"> 
-        <span></span>
         <span></span>
         <span></span>
         <span></span>
@@ -49,5 +60,17 @@
       </div>
     </aside>
   </div>
+  <script>
+  let klick = document.querySelector('.header__menu-icon');
+  let mobile = document.querySelector('.menu-mobile');
+  let burgerClick = document.querySelector('.menu-mobile__burger');
+  klick.onclick = () => {
+    mobile.classList.toggle("visible");
+  }
+ 
+  burgerClick.onclick = () => {
+    mobile.classList.remove("visible");
+  }
+  </script> 
 </body>
 </html>
